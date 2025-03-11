@@ -1,42 +1,152 @@
 {
   "project_info": {
-    "project_number": "20411135818",
-    "firebase_url": "https://eccomerce-e30f2-default-rtdb.firebaseio.com",
-    "project_id": "eccomerce-e30f2",
-    "storage_bucket": "eccomerce-e30f2.firebasestorage.app"
+    "project_number": "739641644268",
+    "project_id": "daviekimonlinestore",
+    "storage_bucket": "daviekimonlinestore.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:20411135818:android:d8f394849ce34153f573b3",
+        "mobilesdk_app_id": "1:739641644268:android:0047945d906d9cc870c1c9",
         "android_client_info": {
-          "package_name": "com.ernestgichiri.farmhub"
+          "package_name": "com.daviekim.esales"
         }
       },
       "oauth_client": [
         {
-          "client_id": "20411135818-hk0a02dcc2q0touhnbavehpmo7r3ugkj.apps.googleusercontent.com",
+          "client_id": "739641644268-u7gjdlgitr8peuul1es17vgsuk1jitms.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.ernestgichiri.farmhub",
+            "package_name": "com.daviekim.esales",
             "certificate_hash": "5357bc5f91a3b4bd95ea2ebd5a2f7939fc06813c"
           }
         },
         {
-          "client_id": "20411135818-9nsr6dpdpgafmpc0fkl5elg6l1mr8gkr.apps.googleusercontent.com",
+          "client_id": "739641644268-j5e591887cup48qre7h17d77fl57gm32.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyApYPq2oB6JnKSJHNZTt4R6o7vTWsx2kuQ"
+          "current_key": "AIzaSyAO77N8k051otVhO9zhgi-hasrdWp2ukw8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "20411135818-9nsr6dpdpgafmpc0fkl5elg6l1mr8gkr.apps.googleusercontent.com",
+              "client_id": "739641644268-dmu4re76nhqsu8b8mrtjiui01f980je0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739641644268:android:0d02526a5c71ce8670c1c9",
+        "android_client_info": {
+          "package_name": "com.deveric"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739641644268-ramshss2q8luv75gr18pbvcpgua3qnq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deveric",
+            "certificate_hash": "d53b6d1096c5ec4d2c270bb6449933c406c06532"
+          }
+        },
+        {
+          "client_id": "739641644268-j5e591887cup48qre7h17d77fl57gm32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO77N8k051otVhO9zhgi-hasrdWp2ukw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739641644268-dmu4re76nhqsu8b8mrtjiui01f980je0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739641644268:android:08788d8fa0d8a45770c1c9",
+        "android_client_info": {
+          "package_name": "com.ernestgichiri.farmhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739641644268-buisl0ag7amc43ms1hukad69q88ge2da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ernestgichiri.farmhub",
+            "certificate_hash": "d53b6d1096c5ec4d2c270bb6449933c406c06532"
+          }
+        },
+        {
+          "client_id": "739641644268-j5e591887cup48qre7h17d77fl57gm32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO77N8k051otVhO9zhgi-hasrdWp2ukw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739641644268-dmu4re76nhqsu8b8mrtjiui01f980je0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739641644268:android:229205204c0da37170c1c9",
+        "android_client_info": {
+          "package_name": "com.josephnganga.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739641644268-2pu60nemgmkqoemgc13cv114l2shto3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.josephnganga.eshop",
+            "certificate_hash": "d53b6d1096c5ec4d2c270bb6449933c406c06532"
+          }
+        },
+        {
+          "client_id": "739641644268-j5e591887cup48qre7h17d77fl57gm32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO77N8k051otVhO9zhgi-hasrdWp2ukw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739641644268-dmu4re76nhqsu8b8mrtjiui01f980je0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
