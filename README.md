@@ -1,10 +1,10 @@
 # E-Sales  
 
-E-Sales is a sample app built with [Jetpack Compose](https://developer.android.com/jetpack/compose/) and modern Android development practices. It supports user authentication, shopping cart functionality, and seamless navigation between screens.  
+E-Sales is a sample app built with [Jetpack Compose](https://developer.android.com/jetpack/compose/) and modern Android development practices. It supports user authentication, shopping cart functionality, and seamless navigation between screens. The package name for the project is **com.josephnganga.eshop**.  
 
 ## Developer  
 
-E-Sales is developed by **Joseph Nganga**. The package name for the project is **com.josephnganga.eshop**.  
+E-Sales is developed by **Joseph Nganga**. 
 
 ## Tech Stack  
 
