@@ -12,7 +12,7 @@ class DetailProductEntityToUiMapper @Inject constructor() :
             productId = input.id,
             title = input.title,
             description = input.description,
-            price = input.price.toDouble(),
+            price = (input.price.toDouble() * 10).toInt().toDouble(),
             imageUrl = input.imageUrl,
             rating = input.rating,
         )

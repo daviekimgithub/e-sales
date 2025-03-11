@@ -88,7 +88,7 @@ fun ProductItem(
             )
 
             Text(
-                text = "Ksh ${product.price}K",
+                text = "Ksh ${product.price}",
                 style = TextStyle(
                     fontWeight = FontWeight.Bold,
                     fontSize = 14.sp,
@@ -130,7 +130,7 @@ fun PreviewProductItem() {
             title = "Product 1",
             description = "Product 1 description",
             rating = 4.5,
-            price = "$10",
+            price = 10.00,
             imageUrl = "imageString",
         ),
         onProductClicked = {},
@@ -141,6 +141,6 @@ data class Product(
     val title: String,
     val description: String,
     val rating: Float,
-    val price: String,
+    val price: Double,
     val imageString: String,
 )
