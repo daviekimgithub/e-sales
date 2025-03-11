@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ernestgichiri.farmhub'
+    namespace 'com.josephnganga.eshop'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.ernestgichiri.farmhub"
+        applicationId "com.josephnganga.eshop"
         minSdk 24
         targetSdk 31
         versionCode 1

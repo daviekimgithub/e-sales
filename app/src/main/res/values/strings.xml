@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Farm Hub</string>
+    <string name="app_name">E-Shop</string>
     <string name="navbar_menu_home">Home</string>
     <string name="navbar_menu_cart">Cart</string>
     <string name="navbar_profile_cart">Profile</string>
@@ -79,7 +79,7 @@
     <string name="buy_now">Buy Now</string>
     <string name="total_amount">Total Amount</string>
     <string name="payment_credit_card">Credit Card</string>
-    <string name="cardholder_name">Cartholder Name</string>
+    <string name="cardholder_name">Cart holder Name</string>
     <string name="credit_card_number">Credit Card Number</string>
     <string name="month">Month</string>
     <string name="year">Year</string>
