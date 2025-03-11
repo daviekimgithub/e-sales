@@ -149,7 +149,7 @@ fun SuccessScreen(
             )
 
             Text(
-                text = "Ksh ${uiData.price} K",
+                text = "Ksh ${uiData.price}",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -188,7 +188,7 @@ fun SuccessScreen(
                                 userId = "",
                                 productId = uiData.productId,
                                 quantity = 1,
-                                price = uiData.price.toInt(),
+                                price = uiData.price,
                                 title = uiData.title,
                                 image = uiData.imageUrl[0],
                             ),
@@ -208,7 +208,7 @@ fun SuccessScreen(
                                 userId = "",
                                 productId = uiData.productId,
                                 quantity = 1,
-                                price = uiData.price.toInt(),
+                                price = uiData.price,
                                 title = uiData.title,
                                 image = uiData.imageUrl[0],
                             ),

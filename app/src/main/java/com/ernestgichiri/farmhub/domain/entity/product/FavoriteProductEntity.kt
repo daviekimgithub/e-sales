@@ -10,7 +10,7 @@ data class FavoriteProductEntity(
     @PrimaryKey
     @ColumnInfo(name = "product_id")
     val productId: Int,
-    @ColumnInfo(name = "product_price") val price: Int,
+    @ColumnInfo(name = "product_price") val price: Double,
     @ColumnInfo(name = "product_quantity") val quantity: Int,
     @ColumnInfo(name = "product_title") val title: String,
     @ColumnInfo(name = "product_image") val image: String,
