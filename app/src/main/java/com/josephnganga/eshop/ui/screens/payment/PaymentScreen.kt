@@ -130,6 +130,15 @@ fun PaymentScreen() {
         ) {
             Text(text = "Pay Now")
         }
+
+        Button(
+            onClick = { /* Handle payment */ },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 16.dp),
+        ) {
+            Text(text = "Pay on Delivery")
+        }
     }
 }
 
