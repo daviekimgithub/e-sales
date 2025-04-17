@@ -5,6 +5,6 @@ data class ProductUiData(
     val title: String,
     val description: String,
     val price: Double,
-    val imageUrl: String,
+    val imageUrl: List<String>,
     val rating: Double,
 )

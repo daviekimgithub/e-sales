@@ -1,5 +1,6 @@
 package com.josephnganga.eshop.ui.screens.detail
 
+import android.util.Log
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -183,6 +184,7 @@ fun SuccessScreen(
             ) {
                 Button(
                     onClick = {
+                        Log.e("the value of uidata.imageUrl", uiData.imageUrl.toString())
                         onAddToCartButtonClicked(
                             UserCartEntity(
                                 userId = "",
@@ -190,7 +192,7 @@ fun SuccessScreen(
                                 quantity = 1,
                                 price = uiData.price,
                                 title = uiData.title,
-                                image = uiData.imageUrl[0],
+                                image = uiData.imageUrl.firstOrNull() ?: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
                             ),
                         )
                     },
@@ -210,7 +212,7 @@ fun SuccessScreen(
                                 quantity = 1,
                                 price = uiData.price,
                                 title = uiData.title,
-                                image = uiData.imageUrl[0],
+                                image = uiData.imageUrl.firstOrNull() ?: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
                             ),
                         )
                     },

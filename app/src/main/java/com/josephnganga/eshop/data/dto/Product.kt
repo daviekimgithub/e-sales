@@ -9,16 +9,16 @@ data class Product(
     val category: String,
     @Json(name = "description")
     val description: String,
-    @Json(name = "discountPercentage")
-    val discountPercentage: Double,
+    @Json(name = "discount_percentage")
+    val discountPercentage: String,
     @Json(name = "id")
     val id: Int,
     @Json(name = "images")
     val images: List<String>,
     @Json(name = "price")
-    val price: Double,
+    val price: String,
     @Json(name = "rating")
-    val rating: Double,
+    val rating: String,
     @Json(name = "stock")
     val stock: Int,
     @Json(name = "thumbnail")

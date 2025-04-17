@@ -131,7 +131,10 @@ fun PreviewProductItem() {
             description = "Product 1 description",
             rating = 4.5,
             price = 10.00,
-            imageUrl = "imageString",
+            imageUrl = listOf(
+                "https://example.com/images/laptop1.jpg",
+                "https://example.com/images/laptop2.jpg"
+            ),
         ),
         onProductClicked = {},
     )
